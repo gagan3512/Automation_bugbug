@@ -1,4 +1,4 @@
-## You will get the code in this file structure src/test/java
+## You will get the code in the file structure src/test/java
 
 Automation Test Project
 Summary
