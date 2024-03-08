@@ -1,81 +1,56 @@
-Documentation:- 
+Automation Test Project
+Summary
+This project aims to assess the candidate's ability to write automation code and perform UI automated tests. The project includes tasks such as setting up an automation project, automating UI test cases, and providing appropriate documentation.
 
-I) Test Cases Documentation:
-Scenario:
-Automating UI test cases for BugBug platform focusing on project, tests management, and suites management functionalities.
+Task Overview
+1. Set Up an Automation Project:
+Created a new automation project using Java and Selenium WebDriver.
+Set up the project structure, including necessary dependencies (e.g., Selenium WebDriver, TestNG) and configuration files.
+Initialized a Git repository for the project and committed the initial setup.
+2. Automate UI Test Cases:
+Targeted website: BugBug
+Successfully registered with username/password on the BugBug platform.
+Automated test cases covering the following scenarios:
+After sign-in, created a new project.
+Managed tests (including creation, deletion, listing, updating).
+Managed suites (including creation, deletion, listing, updating).
+Ensured the test cases were well-structured and included appropriate assertions for validation.
+3. Documentation:
+Provided clear documentation for each test case, including descriptions of the scenarios, steps involved, and expected outcomes.
+Documented instructions on how to run the test cases, including setup requirements and execution steps.
+Pushed the completed code and documents to a remote Git repository (GitHub).
+4. Evaluation Criteria:
+Test Case Design: Ensured relevance and completeness of test cases in covering the specified scenarios.
+Code Quality: Maintained clarity, readability, and maintainability of the code.
+Test Execution: Successfully executed the test cases and validated the expected outcomes.
+Documentation: Provided high-quality documentation for the test cases.
+How to Run the Test Cases
+Clone the repository:
 
-Test Case 1: Create New Project
-Description:
-This test case verifies the functionality of creating a new project after signing into the BugBug platform.
-
-Steps:
-
-Open the BugBug platform sign-in page: https://app.bugbug.io/sign-in/
-Log in with valid credentials.
-Navigate to the project creation page.
-Fill in the necessary details for the new project (e.g., project name, description).
-Click on the "Create" button.
-Verify that the project is successfully created and listed in the project management section.
-Expected Outcome:
-The new project should be created successfully, and it should be visible in the project list.
-
-Test Case 2: Tests Management
-Description:
-This test case verifies the functionalities related to tests management, including creating, deleting, listing, and updating tests.
-
-Steps:
-
-Sign in to the BugBug platform.
-Navigate to the tests management section.
-Create a new test.
-Verify that the new test is successfully created.
-List all tests and verify that the newly created test is listed.
-Update the details of the test.
-Verify that the test details are updated correctly.
-Delete the test.
-Verify that the test is deleted and no longer listed.
-Expected Outcome:
-All test management actions (create, list, update, delete) should be performed successfully without errors.
-
-Test Case 3: Suites Management
-Description:
-This test case verifies the functionalities related to suites management, including creating, deleting, listing, and updating suites.
-
-Steps:
-
-Sign in to the BugBug platform.
-Navigate to the suites management section.
-Create a new suite.
-Verify that the new suite is successfully created.
-List all suites and verify that the newly created suite is listed.
-Update the details of the suite.
-Verify that the suite details are updated correctly.
-Delete the suite.
-Verify that the suite is deleted and no longer listed.
-Expected Outcome:
-All suites management actions (create, list, update, delete) should be performed successfully without errors.
-
-II) Documentation for How to Run the Case:
-Pre-requisites:
-JDK (Java Development Kit) installed.
-Maven installed.
-Git installed.
-WebDriver for Selenium (ChromeDriver) installed.
-Steps to Run the Test Case:
-Clone the repository from GitHub using the following command:
 bash
 Copy code
-git clone 
+git clone https://github.com/your_username/automation-test-project.git
 Navigate to the project directory:
+
 bash
 Copy code
-cd 
-Update the config.properties file with your BugBug platform username and password.
-Open a terminal or command prompt.
-Run the following command to execute the test case:
+cd automation-test-project
+Set up the environment:
+
+Ensure you have Java installed on your system.
+Install necessary dependencies using Maven:
+Copy code
+mvn clean install
+Execute the test cases:
+
+Run the test suite using Maven:
 bash
 Copy code
-mvn clean test
-The Selenium WebDriver will open a Chrome browser, sign in to the BugBug platform, and execute the test cases automatically.
-Once the execution is complete, the test results will be displayed in the terminal, and any failures will be reported.
-![image](https://github.com/gagan3512/Automation_bugbug/assets/53247977/396cdb13-12bd-4f0a-ac63-43a869887cce)
+mvn test
+Verify the results:
+
+Check the console output for test execution results.
+Review any generated reports or logs for detailed information.
+Repository Link
+Link to the Repository
+
