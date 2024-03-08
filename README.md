@@ -29,7 +29,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your_username/automation-test-project.git
+git clone https://github.com/gagan3512/Automation_bugbug/
 Navigate to the project directory:
 
 bash
