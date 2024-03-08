@@ -1,3 +1,5 @@
+## You will get the code in this file structure src/test/java
+
 Automation Test Project
 Summary
 This project aims to assess the candidate's ability to write automation code and perform UI automated tests. The project includes tasks such as setting up an automation project, automating UI test cases, and providing appropriate documentation.
