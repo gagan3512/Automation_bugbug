@@ -78,4 +78,4 @@ Copy code
 mvn clean test
 The Selenium WebDriver will open a Chrome browser, sign in to the BugBug platform, and execute the test cases automatically.
 Once the execution is complete, the test results will be displayed in the terminal, and any failures will be reported.
-![image](https://github.com/gagan3512/Automation_bugbug/assets/53247977/c855e014-57e0-495d-b39f-5f2b35b71348)
+![image](https://github.com/gagan3512/Automation_bugbug/assets/53247977/396cdb13-12bd-4f0a-ac63-43a869887cce)
